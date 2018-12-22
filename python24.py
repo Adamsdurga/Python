@@ -1,7 +1,7 @@
 num_array = list()
-num = input("Enter the num:")
-print ('Enter numbers in array: ')
+num = input("Enter the number:")
+print ('Enter number: ')
 for i in range(int(num)):
-    n = input("num :")
-    num_array.append(int(n))
+    a = input("num :")
+    num_array.append(int(a))
 print ('ARRAY: ',num_array)

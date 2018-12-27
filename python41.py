@@ -5,9 +5,9 @@ def countOccurrences (s, K):
     C = 0
     for i in range(n): 
         if s[i] == 'a': 
-            c1+= 1 # Count of 'xs 
+            c1+= 1 
         if s[i] == 'b': 
-            c2+= 1 # Count of 'ys 
+            c2+= 1
             C += c1  
     return C * K + (K * (K - 1) / 2) * c1 * c2 
 S = "xyz

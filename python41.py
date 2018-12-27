@@ -10,6 +10,6 @@ def countOccurrences (s, K):
             c2+= 1
             C += c1  
     return C * K + (K * (K - 1) / 2) * c1 * c2 
-S = "xyz
+S = "abs"
 k = 2
 print (countOccurrences(S, k))

@@ -6,10 +6,10 @@ def countOccurrences (s, K):
     for i in range(n): 
         if s[i] == 'a': 
             c1+= 1 
-        if s[i] == 'b': 
+        if s[i] == 's': 
             c2+= 1
             C += c1  
     return C * K + (K * (K - 1) / 2) * c1 * c2 
-S = "abs"
+S = "asb"
 k = 2
 print (countOccurrences(S, k))

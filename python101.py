@@ -1,2 +1,2 @@
-n1,h1=map(int,input().split(' '))
-print(n1%(10**h1))
+a1,b1=map(int,input().split(' '))
+print(a1%(10**b1))
